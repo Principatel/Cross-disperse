@@ -1,0 +1,25 @@
+.main-div-of-dashboard{
+    margin-top: 150px;
+}
+
+.menu-bar-dashboard{
+    /* margin: 0px 200px; */
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.main-div-for-all-option-dashboard{
+    display: flex;
+    /* gap: 30px; */
+    justify-content: center;
+}
+
+.component-container-dashboard{
+    /* border: 1px solid black; */
+    margin: 15px 300px;
+}
+/* 
+.div-to-center-the-component-render{
+    display: flex;
+    justify-content: center;
+} */

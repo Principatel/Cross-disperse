@@ -1,0 +1,45 @@
+.main-div-for-homepage-ii{
+    padding: 50px 0px;
+    width: 100%;
+    background-color: aqua;
+    border-radius: 100px 100px 0px 0px;
+}
+
+.user-guide-card h2 {
+  min-height: 87px;
+  margin: 0 0 25px;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 30px;
+  color: #FFF;
+  z-index: 2;
+  position: relative;
+}
+
+.user-manual-list-iihomepage{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+}
+
+.user-guide-card p {
+  font-size: 18px;
+  color: #FFF;
+  z-index: 2;
+  position: relative;
+}
+
+/* Add this CSS animation for your cards */
+.user-guide-card {
+  background-color: #4127273f;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.5s ease; 
+  margin: 80px;
+}
+
+.user-guide-card:hover {
+  transform: scale(1.1); /* Scale up the card on hover */
+}
+
+

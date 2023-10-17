@@ -1,8 +1,14 @@
 .user-form-for-list{
     border: 1px solid black;
+    padding: 5px 0px;
 }
 
 .div-to-add-the-tx{
     border: 1px solid red;
     margin: 10px 0px;
+    justify-content: center;
+}
+
+.each-input-of-create-list{
+    margin: 0px 20px;
 }

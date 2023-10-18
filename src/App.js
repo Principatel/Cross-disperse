@@ -7,13 +7,32 @@ import Maindashboard from "./Components/Dashboardpages/Maindashboard";
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Landingpage />} />
-          <Route path="/maindashboard" element={<Maindashboard />} />
-        </Routes>
-      </Router>
+      <div className="landingpff">
+        <div class="background">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <Router>
+            <Navbar />
+            <Routes>
+              <Route path="/" element={<Landingpage />} />
+              <Route path="/maindashboard" element={<Maindashboard />} />
+            </Routes>
+          </Router>
+        </div>
+      </div>
     </div>
   );
 }

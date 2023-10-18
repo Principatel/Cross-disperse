@@ -19,13 +19,13 @@
     height: 100vh;
     top: 0;
     left: 0;
-    background: #3E1E68;
+    background: #230d3f;
     overflow: hidden;
 }
 
 .background span {
-    width: 3vmin;
-    height: 3vmin;
+    width: 2vmin;
+    height: 2vmin;
     border-radius: 3vmin;
     backface-visibility: hidden;
     position: absolute;

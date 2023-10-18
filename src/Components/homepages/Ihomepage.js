@@ -13,7 +13,7 @@ function Ihomepage() {
   return (
     <div className="main-div-ihomepage">
       <div className="ihomepage-title-i">
-        <h1>All Chains, One Solution</h1>
+        <h1 className="ihome-title-ii">All Chains, One Solution</h1>
       </div>
       <div className="ihomepage-title-i">
         <h1>Cross-Disperse Your Crypto Transactions!</h1>

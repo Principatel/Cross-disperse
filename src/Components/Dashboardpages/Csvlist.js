@@ -50,7 +50,10 @@ function Csvlist() {
   return (
     <div>
       <div className="main-div-for-upload-csv-file">
-        <input type="file" accept=".csv" onChange={handleFileUpload} />
+        <div className="input-div-for-csv">
+          <label>Upload File</label> &nbsp; &nbsp;
+          <input type="file" accept=".csv" onChange={handleFileUpload} />
+        </div>
       </div>
       <div className="display-csvfile-here">
         {csvData.length > 0 && (

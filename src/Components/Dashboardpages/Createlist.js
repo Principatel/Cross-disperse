@@ -27,7 +27,6 @@ function Createlist() {
 
   return (
     <div>
-      {/* <p>Create List</p> */}
       <div className="user-form-for-list">
         <input
           className="each-input-of-create-list"
@@ -65,26 +64,28 @@ function Createlist() {
       </div>
       <div className="div-to-add-the-tx">
         <h1>Your Transaction Lineup</h1>
-        <table>
-          <thead>
-            <tr>
-              <th>Receive Address</th>
-              <th>Token Amount</th>
-              <th>Token Symbol</th>
-              <th>Chain Name</th>
-            </tr>
-          </thead>
-          <tbody>
-            {listData.map((data, index) => (
-              <tr key={index}>
-                <td>{data.receiverAddress}</td>
-                <td>{data.tokenAmount}</td>
-                <td>{data.tokenSymbol}</td>
-                <td>{data.chainName}</td>
+        <div className="scrollable-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Receive Address</th>
+                <th>Token Amount</th>
+                <th>Token Symbol</th>
+                <th>Chain Name</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {listData.map((data, index) => (
+                <tr key={index}>
+                  <td>{data.receiverAddress}</td>
+                  <td>{data.tokenAmount}</td>
+                  <td>{data.tokenSymbol}</td>
+                  <td>{data.chainName}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   );

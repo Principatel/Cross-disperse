@@ -2,47 +2,25 @@ import React from "react";
 import "../../Styles/iihomepage.css";
 
 function Iihomepage() {
-  const userGuideItems = [
-    {
-      title: "Connect Wallet",
-      description: "Link your wallet.",
-    },
-    {
-      title: "List Transactions",
-      description: "Enter recipient details.",
-    },
-    {
-      title: "Send",
-      description: "Initiate the transactions.",
-    },
-    {
-      title: "View History",
-      description: "Monitor your transactions.",
-    },
-  ];
-
   return (
     <div>
-      <div className="main-div-for-homepage-ii">
-        <div className="iihomepage-tile">
-          <h1>Cross-Disperse Walkthrough</h1>
-        </div>
-        <div className="user-manual-list-iihomepage">
-          <div className="card-row">
-            {userGuideItems.slice(0, 2).map((item, index) => (
-              <div className="user-guide-card" key={index}>
-                <h2>{item.title}</h2>
-                <p>{item.description}</p>
-              </div>
-            ))}
+      <div className="main-div-for-user-guide">
+        <div className="rectangle-box-for-4-cards">
+          <div className="card">
+            <h2>Connect Wallet</h2>
+            <p>Link your Wallet</p>
           </div>
-          <div className="card-row">
-            {userGuideItems.slice(2).map((item, index) => (
-              <div className="user-guide-card" key={index}>
-                <h2>{item.title}</h2>
-                <p>{item.description}</p>
-              </div>
-            ))}
+          <div className="card">
+            <h2>List Transactions</h2>
+            <p>Enter Recipient Details</p>
+          </div>
+          <div className="card">
+            <h2>Send</h2>
+            <p>Initiate the transation</p>
+          </div>
+          <div className="card">
+            <h2>View History</h2>
+            <p>Monitor your Transactions</p>
           </div>
         </div>
       </div>

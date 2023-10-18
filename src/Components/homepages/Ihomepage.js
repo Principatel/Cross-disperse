@@ -19,7 +19,9 @@ function Ihomepage() {
         <h1>Cross-Disperse Your Crypto Transactions!</h1>
       </div>
       <div>
-        <button onClick={handleGetStartedClick}>Get Started</button>
+        <button className="get-started-button" onClick={handleGetStartedClick}>
+          Get Started
+        </button>
       </div>
     </div>
   );

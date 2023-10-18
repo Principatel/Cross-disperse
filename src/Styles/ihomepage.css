@@ -1,5 +1,29 @@
 .main-div-ihomepage{
     /* border: 1px solid black; */
-    padding: 170px 0px;
-    z-index: inherit
+    padding: 150px 0px 100px 0px;
+    font-family: Almarai;
+font-size: 18px;
+font-weight: 300;
+line-height: 44px;
+letter-spacing: 0.055em;
+text-align: center;
+    color: white;
+    z-index: -10;
 }
+
+.get-started-button{
+    width: 353px;
+    height: 73px;
+    padding: 21px, 71px, 21px, 71px;
+    border-radius: 39px;
+    border: 3px;
+    background: linear-gradient(93.58deg, #1bff7670 2.58%, #00ffff59 49.63%, #00FFFF 96.68%);
+    font-family: Almarai;
+font-size: 30px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0.055em;
+text-align: center;
+color: white;
+}
+

@@ -7,8 +7,59 @@
     border: 1px solid red;
     margin: 10px 0px;
     justify-content: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .each-input-of-create-list{
     margin: 0px 20px;
 }
+
+/* Add these styles to your createlist.css or style tag */
+.user-form-for-list {
+    border: 1px solid black;
+    padding: 5px 0px;
+  }
+  
+  .each-input-of-create-list {
+    margin: 0px 20px;
+  }
+  
+  .div-to-add-the-tx {
+    border: 1px solid red;
+    margin: 10px 0px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .scrollable-table {
+    max-height: 300px; /* Adjust the height as needed */
+    overflow: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+  }
+  
+  table th {
+    background-color: #f63333a3;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  table th,
+  table td {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  

@@ -6,12 +6,22 @@ import Footer from "../homepages/Footer";
 
 function Landingpage() {
   return (
-    <div>
-      {/* <div className="first-comp-landing-page"> */}
-      <Ihomepage />
-      {/* </div> */}
-      <Iihomepage />
-      <Footer />
+    <div className="landingpff">
+      <div class="background">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <Ihomepage />
+        <Iihomepage />
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <Footer />
+      </div>
     </div>
   );
 }
